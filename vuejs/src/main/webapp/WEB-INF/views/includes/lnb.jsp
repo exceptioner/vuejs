@@ -1,129 +1,103 @@
-<div class="navbar nav_title" style="border: 0;">
-  <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
-</div>
+<!-- Sidebar -->
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
-<div class="clearfix"></div>
+  <!-- Sidebar - Brand -->
+  <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
+    <div class="sidebar-brand-icon rotate-n-15">
+      <i class="fas fa-laugh-wink"></i>
+    </div>
+    <div class="sidebar-brand-text mx-3">LMS</div>
+  </a>
 
-<!-- menu profile quick info -->
-<div class="profile clearfix">
-  <div class="profile_pic">
-    <img src="/resources/bootstrap/gentelella-master/production/images/img.jpg" alt="..." class="img-circle profile_img">
-  </div>
-  <div class="profile_info">
-    <span>Welcome,</span>
-    <h2>John Doe</h2>
-  </div>
-</div>
-<!-- /menu profile quick info -->
+  <!-- Divider -->
+  <hr class="sidebar-divider">
 
-<br />
-
-<!-- sidebar menu -->
-<div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
-  <div class="menu_section">
-    <h3>General</h3>
-    <ul class="nav side-menu">
-      <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
-        <ul class="nav child_menu">
-          <li><a href="index.html">Dashboard</a></li>
-          <li><a href="index2.html">Dashboard2</a></li>
-          <li><a href="index3.html">Dashboard3</a></li>
-        </ul>
-      </li>
-      <li><a><i class="fa fa-edit"></i> 공통코드 관리 <span class="fa fa-chevron-down"></span></a>
-        <ul class="nav child_menu">
-          <li><a href="/code/list">코드그룹 관리</a></li>
-          <li><a href="/code/list">코드 관리</a></li>
-        </ul>
-      </li>
-      <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
-        <ul class="nav child_menu">
-          <li><a href="form.html">General Form</a></li>
-          <li><a href="form_advanced.html">Advanced Components</a></li>
-          <li><a href="form_validation.html">Form Validation</a></li>
-          <li><a href="form_wizards.html">Form Wizard</a></li>
-          <li><a href="form_upload.html">Form Upload</a></li>
-          <li><a href="form_buttons.html">Form Buttons</a></li>
-        </ul>
-      </li>
-      <li><a><i class="fa fa-desktop"></i> UI Elements <span class="fa fa-chevron-down"></span></a>
-        <ul class="nav child_menu">
-          <li><a href="general_elements.html">General Elements</a></li>
-          <li><a href="media_gallery.html">Media Gallery</a></li>
-          <li><a href="typography.html">Typography</a></li>
-          <li><a href="icons.html">Icons</a></li>
-          <li><a href="glyphicons.html">Glyphicons</a></li>
-          <li><a href="widgets.html">Widgets</a></li>
-          <li><a href="invoice.html">Invoice</a></li>
-          <li><a href="inbox.html">Inbox</a></li>
-          <li><a href="calendar.html">Calendar</a></li>
-        </ul>
-      </li>
-      <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
-        <ul class="nav child_menu">
-          <li><a href="tables.html">Tables</a></li>
-          <li><a href="tables_dynamic.html">Table Dynamic</a></li>
-        </ul>
-      </li>
-      <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
-        <ul class="nav child_menu">
-          <li><a href="chartjs.html">Chart JS</a></li>
-          <li><a href="chartjs2.html">Chart JS2</a></li>
-          <li><a href="morisjs.html">Moris JS</a></li>
-          <li><a href="echarts.html">ECharts</a></li>
-          <li><a href="other_charts.html">Other Charts</a></li>
-        </ul>
-      </li>
-      <li><a><i class="fa fa-clone"></i>Layouts <span class="fa fa-chevron-down"></span></a>
-        <ul class="nav child_menu">
-          <li><a href="fixed_sidebar.html">Fixed Sidebar</a></li>
-          <li><a href="fixed_footer.html">Fixed Footer</a></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-  <div class="menu_section">
-    <h3>Live On</h3>
-    <ul class="nav side-menu">
-      <li><a><i class="fa fa-bug"></i> Additional Pages <span class="fa fa-chevron-down"></span></a>
-        <ul class="nav child_menu">
-          <li><a href="e_commerce.html">E-commerce</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="project_detail.html">Project Detail</a></li>
-          <li><a href="contacts.html">Contacts</a></li>
-          <li><a href="profile.html">Profile</a></li>
-        </ul>
-      </li>
-      <li><a><i class="fa fa-windows"></i> Extras <span class="fa fa-chevron-down"></span></a>
-        <ul class="nav child_menu">
-          <li><a href="page_403.html">403 Error</a></li>
-          <li><a href="page_404.html">404 Error</a></li>
-          <li><a href="page_500.html">500 Error</a></li>
-          <li><a href="plain_page.html">Plain Page</a></li>
-          <li><a href="login.html">Login Page</a></li>
-          <li><a href="pricing_tables.html">Pricing Tables</a></li>
-        </ul>
-      </li>
-      <li><a><i class="fa fa-sitemap"></i> Multilevel Menu <span class="fa fa-chevron-down"></span></a>
-        <ul class="nav child_menu">
-            <li><a href="#level1_1">Level One</a>
-            <li><a>Level One<span class="fa fa-chevron-down"></span></a>
-              <ul class="nav child_menu">
-                <li class="sub_menu"><a href="level2.html">Level Two</a>
-                </li>
-                <li><a href="#level2_1">Level Two</a>
-                </li>
-                <li><a href="#level2_2">Level Two</a>
-                </li>
-              </ul>
-            </li>
-            <li><a href="#level1_2">Level One</a>
-            </li>
-        </ul>
-      </li>
-      <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a></li>
-    </ul>
+  <!-- Heading -->
+  <div class="sidebar-heading">
+    Interface
   </div>
 
-</div>
-<!-- /sidebar menu -->
+  <!-- Nav Item - Pages Collapse Menu -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+      <i class="fas fa-fw fa-cog"></i>
+      <span>Components</span>
+    </a>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+      <div class="bg-white py-2 collapse-inner rounded">
+        <h6 class="collapse-header">Custom Components:</h6>
+        <a class="collapse-item" href="buttons.html">Buttons</a>
+        <a class="collapse-item" href="cards.html">Cards</a>
+      </div>
+    </div>
+  </li>
+
+  <!-- Nav Item - Utilities Collapse Menu -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
+      <i class="fas fa-fw fa-wrench"></i>
+      <span>Utilities</span>
+    </a>
+    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+      <div class="bg-white py-2 collapse-inner rounded">
+        <h6 class="collapse-header">Custom Utilities:</h6>
+        <a class="collapse-item" href="utilities-color.html">Colors</a>
+        <a class="collapse-item" href="utilities-border.html">Borders</a>
+        <a class="collapse-item" href="utilities-animation.html">Animations</a>
+        <a class="collapse-item" href="utilities-other.html">Other</a>
+      </div>
+    </div>
+  </li>
+
+  <!-- Divider -->
+  <hr class="sidebar-divider">
+
+  <!-- Heading -->
+  <div class="sidebar-heading">
+    Addons
+  </div>
+
+  <!-- Nav Item - Pages Collapse Menu -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+      <i class="fas fa-fw fa-folder"></i>
+      <span>Pages</span>
+    </a>
+    <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+      <div class="bg-white py-2 collapse-inner rounded">
+        <h6 class="collapse-header">Login Screens:</h6>
+        <a class="collapse-item" href="login.html">Login</a>
+        <a class="collapse-item" href="register.html">Register</a>
+        <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
+        <div class="collapse-divider"></div>
+        <h6 class="collapse-header">Other Pages:</h6>
+        <a class="collapse-item" href="404.html">404 Page</a>
+        <a class="collapse-item" href="blank.html">Blank Page</a>
+      </div>
+    </div>
+  </li>
+
+  <!-- Nav Item - Charts -->
+  <li class="nav-item">
+    <a class="nav-link" href="charts.html">
+      <i class="fas fa-fw fa-chart-area"></i>
+      <span>Charts</span></a>
+  </li>
+
+  <!-- Nav Item - Tables -->
+  <li class="nav-item">
+    <a class="nav-link" href="tables.html">
+      <i class="fas fa-fw fa-table"></i>
+      <span>Tables</span></a>
+  </li>
+
+  <!-- Divider -->
+  <hr class="sidebar-divider d-none d-md-block">
+
+  <!-- Sidebar Toggler (Sidebar) -->
+  <div class="text-center d-none d-md-inline">
+    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+  </div>
+
+</ul>
+<!-- End of Sidebar -->

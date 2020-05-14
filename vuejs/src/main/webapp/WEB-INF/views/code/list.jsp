@@ -8,7 +8,7 @@
 		<link href="/resources/css/common.css" rel="stylesheet" />
 	</head>
 	<body class="layer">
-		<h1 align="center">게시판 관리</h1>
+		<h1 align="center">코드 관리</h1>
 
 		<table style="width: 100%;">
 			<colgroup>

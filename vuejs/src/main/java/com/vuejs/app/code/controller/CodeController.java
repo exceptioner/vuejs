@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.vuejs.app.board.model.BoardSearch;
 import com.vuejs.app.code.model.CodeBase;
 import com.vuejs.app.code.model.CodeSearch;
 import com.vuejs.app.code.service.CodeService;
@@ -47,7 +46,7 @@ public class CodeController {
 	}
 
 	@RequestMapping(value = "/regist", method = RequestMethod.GET)
-	public ModelAndView regist(HttpSession session, BoardSearch search) {
+	public ModelAndView regist(HttpSession session, CodeSearch search) {
 		logger.info("regist in......");
 		ModelAndView mav = new ModelAndView("/code/regist");
 

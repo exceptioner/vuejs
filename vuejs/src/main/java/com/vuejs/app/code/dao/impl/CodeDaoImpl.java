@@ -20,7 +20,7 @@ public class CodeDaoImpl implements CodeDao {
 	@Autowired
 	private SqlSession sql;
 
-	private final static String NS = "com.exp.app.code.dao.CodeDao.";
+	private final static String NS = "com.vuejs.app.code.dao.CodeDao.";
 
 	@Override
 	public List<CodeBase> selectCodeList(CodeSearch search) {

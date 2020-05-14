@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.exp.app.board.dao.BoardDao">
+	<sql id="selectBoard">
+		WHERE DEL_YN != 'Y'
+	</sql>
+
+	<select id="selectBoardList" parameterType="boardSearch" resultType="boardBase">
+	<![CDATA[
+		SELECT BOARD_NO
+			   ,BOARD_NM
+			   ,BOARD_DESC
+			   ,BOARD_TYPE
+			   ,REGR
+			   ,REG_DATE
+			   ,MODR
+			   ,MOD_DATE
+			   ,DEL_YN
+		  FROM BOARD
+	]]>
+		<include refid="selectBoard"></include>
+	  ORDER BY BOARD_NO DESC
+		 LIMIT #{pageStart}, #{perPageNum}
+	</select>
+
+	<select id="countBoardList" parameterType="boardSearch" resultType="Integer">
+	<![CDATA[
+		SELECT COUNT(*)
+          FROM BOARD
+	]]>
+		<include refid="selectBoard"></include>
+	</select>
+
+</mapper>

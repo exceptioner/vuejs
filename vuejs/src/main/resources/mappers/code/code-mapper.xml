@@ -9,20 +9,19 @@
 
 	<select id="selectCodeList" parameterType="codeSearch" resultType="codeBase">
 	<![CDATA[
-		SELECT CODE_SEQ
-			   ,CODE_GRP
+		SELECT CODE_GRP
 			   ,CODE
 			   ,CODE_NM
-			   ,CODE_DESC
+			   ,RMK1
 			   ,REGR
-			   ,REG_DATE
+			   ,REG_DTTM
 			   ,MODR
-			   ,MOD_DATE
+			   ,MOD_DTTM
 			   ,DEL_YN
 		  FROM CODE
 	]]>
 		<include refid="selectCode"></include>
-	  ORDER BY CODE_SEQ DESC
+	  ORDER BY CODE_GRP, CODE ASC
 		 LIMIT #{pageStart}, #{perPageNum}
 	</select>
 

@@ -7,6 +7,7 @@
 	  	<title>SB Admin 2 - Dashboard</title>
 		
 		<jsp:include page="../includes/css.jsp"></jsp:include>  
+		<jsp:include page="../includes/js.jsp"></jsp:include>
 	</head>
 	
 	<body id="page-top">
@@ -67,7 +68,5 @@
 	      		</div>
 	   	 	</div>
 		</div>
-	
-		<jsp:include page="../includes/js.jsp"></jsp:include>
 	</body>
 </html>

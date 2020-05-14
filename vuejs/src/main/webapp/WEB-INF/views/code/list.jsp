@@ -3,9 +3,7 @@
 <%-- <%@ page session="false" %> --%>
 <html>
 	<head>
-		<title>게시판 관리</title>
-		<link href="/resources/css/main.css" rel="stylesheet" />
-		<link href="/resources/css/common.css" rel="stylesheet" />
+		<title>코드 관리</title>
 	</head>
 	<body class="layer">
 		<h1 align="center">코드 관리</h1>

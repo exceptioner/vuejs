@@ -1,13 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
 <%@ taglib prefix="decorator" uri="http://www.opensymphony.com/sitemesh/decorator"%>
 <%@ taglib prefix="page" uri="http://www.opensymphony.com/sitemesh/page"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ include file="../includes/css.jsp" %>
+<%@ include file="../includes/js.jsp" %>
+
 <html>
 	<head>
 	  	<title>SB Admin 2 - Dashboard</title>
-		
-		<jsp:include page="../includes/css.jsp"></jsp:include>  
-		<jsp:include page="../includes/js.jsp"></jsp:include>
 	</head>
 	
 	<body id="page-top">
